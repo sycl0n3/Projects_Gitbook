@@ -29,5 +29,16 @@ RX errors 0  dropped 0  overruns 0  frame 0
 TX packets 0  bytes 0 (0.0 B)        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 ```
 
+#### Creating the python environment
+
+Installing pipenv \(for python 3\)
+
+```text
+sudo pip3 install pipenv
+mkdir <project name>
+cd <project> name
+pipenv install
+```
+
 
 
