@@ -40,6 +40,17 @@ cd <project> name
 pipenv install
 ```
 
+#### Install scapy in environment
+
+```text
+pipenv shell
+>>> pip3 install scapy
+```
+
+{% hint style="info" %}
+Note that you will need to set up a **sudo pipenv** environment to access the monitor mode of the wireless interface
+{% endhint %}
+
 #### Working base code \(Python 3\)
 
 ```text
