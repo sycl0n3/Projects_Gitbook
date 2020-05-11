@@ -71,3 +71,7 @@ sniff(prn=handle_pkt)
 
 ```
 
+{% hint style="info" %}
+Note that **addr2** is the source address of the packet.
+{% endhint %}
+
