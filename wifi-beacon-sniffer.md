@@ -40,5 +40,23 @@ cd <project> name
 pipenv install
 ```
 
+#### Working base code \(Python 3\)
 
+```text
+#!/usr/bin/env python
+
+from scapy.all import *
+import datetime
+conf.iface = "wlan1mon"
+
+def handle_pkt(pkt):
+        if Dot11 in pkt and pkt[Dot11].type == 0 and pkt[Dot11].subtype ==4:
+                timestmp = datetime.datetime.now()
+                hwaddr = pkt[Dot11].addr2
+                ssid = pkt[Dot11Elt][0].info
+                print (timestmp, hwaddr, ssid.decode())
+
+sniff(prn=handle_pkt)
+
+```
 
