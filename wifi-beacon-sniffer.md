@@ -81,5 +81,30 @@ Note that **addr2** is the source address of the packet.
 sudo pipenv runun python3 ./wifi_sniff_orig2.py 
 ```
 
+#### 2nd Iteration of the script
+
+```text
+#!/usr/bin/env python
+
+from scapy.all import *
+import datetime
+conf.iface = "wlan1mon"
+ignore_list = ['', "NOWTV1YTPY", 'VM8817240', 'SyNETIII', 'SyNETII','BTHub6-F35M', 'BTHub4-GPSX 2.4GHz', 'catshouse', 'SpecialGuest']
+
+
+def handle_pkt(pkt):
+        if Dot11 in pkt and pkt[Dot11].type == 0 and pkt[Dot11].subtype ==4:
+                timestmp = datetime.datetime.now()
+                hwaddr = pkt[Dot11].addr2
+                ssid = pkt[Dot11Elt][0].info
+                SSID = ssid.decode()
+                if SSID not in ignore_list :
+                        print (timestmp, hwaddr, SSID)
+
+sniff(prn=handle_pkt)
+
+
+```
+
 
 
