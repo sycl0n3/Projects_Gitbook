@@ -75,3 +75,11 @@ sniff(prn=handle_pkt)
 Note that **addr2** is the source address of the packet.
 {% endhint %}
 
+#### Running the script
+
+```text
+sudo pipenv runun python3 ./wifi_sniff_orig2.py 
+```
+
+
+
