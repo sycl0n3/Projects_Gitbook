@@ -143,6 +143,10 @@ In order to cause the wifi adapter cycle through channels, run `airmon-ng`
 
 Run `probequest`
 
+{% hint style="info" %}
+The wifi adapter being used needs to be in monitor mode before `probequest` is started.
+{% endhint %}
+
 ```text
 >>> probequest -i wlan1mon
 ```
