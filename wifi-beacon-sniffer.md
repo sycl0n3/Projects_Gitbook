@@ -108,3 +108,32 @@ sniff(prn=handle_pkt)
 
 
 
+### Trying probequest
+
+Following the tutorial found [here](https://null-byte.wonderhowto.com/how-to/track-wi-fi-devices-connect-them-using-probequest-0186137/), using the python probequest tool to sniff to capture WiFi probe requests.
+
+#### Installing probe quest
+
+Create a pipenv environment
+
+```text
+mkdir probequest
+cd probequest
+sudo pipenv install
+```
+
+{% hint style="info" %}
+You will need to use `sudo` to do `pipenv install` and `pip env shell` in order to use monitor mode
+{% endhint %}
+
+Install probequest
+
+```text
+sudo pipenv shell
+pip3 install --upgrade probequest
+```
+
+{% hint style="info" %}
+it is necessary to have `tcpdump` installed for `probequest` to work properly
+{% endhint %}
+
