@@ -147,5 +147,7 @@ Run `probequest`
 >>> probequest -i wlan1mon
 ```
 
-
+{% hint style="info" %}
+the option to write the output of `probequest` to a file only writes to the file a\) if the file specified does not already exist and b\) when stopping the execution of the `probequest` instance.
+{% endhint %}
 
