@@ -137,3 +137,15 @@ pip3 install --upgrade probequest
 it is necessary to have `tcpdump` installed for `probequest` to work properly
 {% endhint %}
 
+{% hint style="info" %}
+In order to cause the wifi adapter cycle through channels, run `airmon-ng`
+{% endhint %}
+
+Run `probequest`
+
+```text
+>>> probequest -i wlan1mon
+```
+
+
+
