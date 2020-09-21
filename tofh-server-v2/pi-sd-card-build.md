@@ -6,5 +6,9 @@
 
 ## Using Etcher, install OS from Zip file into SD Card
 
+## Enable ssh
+
+Create a file called ssh on the boot partition of the SD card
+
 
 
