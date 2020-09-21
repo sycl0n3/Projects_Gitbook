@@ -104,3 +104,15 @@ sudo apt install openjdk-8-jre-headless
 sudo apt install rng-tools
 ```
 
+### Configure rng-tools
+
+Uncomment the line below:
+
+```text
+sudo vi /etc/default/rng-tools
+```
+
+```text
+#HRNGDEVICE=/dev/hwrng
+```
+
