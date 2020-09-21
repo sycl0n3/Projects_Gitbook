@@ -35,8 +35,6 @@ Create a file called ssh on the boot partition of the SD card
 * If there was any text after the new text make sure that there is _only one space between that text_and the new text
 * Save the file
 
-
-
 On a fresh image that has never been booted, you may see extra text after **rootwait**. But if you boot the pi from the disk at least once, that extra text may go away. That is why you must put the new text directly after **rootwait** - so it doesn’t get accidentally deleted.
 
 ### Boot the Pi Zero <a id="step-6-boot-the-pi-zero"></a>
