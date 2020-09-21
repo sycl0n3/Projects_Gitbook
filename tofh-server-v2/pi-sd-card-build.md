@@ -66,3 +66,19 @@ This part assumes that **ssh** is enabled for your image and that the default us
 * If prompted with a warning just hit enter to accept the default \(**Yes**\)
 * Type in the password – by default this is **raspberry**
 
+## Change the password
+
+```text
+passwd
+```
+
+## Update OS software
+
+```text
+sudo apt-get update
+sudo apt-get upgrade
+
+```
+
+
+
