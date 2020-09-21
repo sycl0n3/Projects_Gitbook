@@ -80,5 +80,21 @@ sudo apt-get upgrade
 
 ```
 
+## Enable ssh and expand OS partition to full size of SD card
+
+```text
+sudo rasp-config
+```
+
+Enable and resize OS partition size.
+
+## Preparing to install Unifi Controller
+
+### Install OpenJAVA 8
+
+```text
+sudo apt install openjdk-8-jre-headless
+```
+
 
 
