@@ -98,5 +98,9 @@ Ref: [https://pimylifeup.com/rasberry-pi-unifi/](https://pimylifeup.com/rasberry
 sudo apt install openjdk-8-jre-headless
 ```
 
+### Install rng-tools to make the Unifi Controller quicker
 
+```text
+sudo apt install rng-tools
+```
 
