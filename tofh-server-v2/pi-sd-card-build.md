@@ -116,3 +116,9 @@ sudo vi /etc/default/rng-tools
 #HRNGDEVICE=/dev/hwrng
 ```
 
+### Restart rng-tools
+
+```text
+sudo systemctl restart rng-tools
+```
+
