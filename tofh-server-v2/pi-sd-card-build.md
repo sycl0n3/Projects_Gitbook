@@ -10,6 +10,10 @@
 
 Create a file called ssh on the boot partition of the SD card
 
+```text
+touch /Volumes/boot/ssh
+```
+
 ## Enable Ethernet Over USB \(USB Gadget mode\)
 
 ### Edit config.txt <a id="step-4-edit-configtxt"></a>
