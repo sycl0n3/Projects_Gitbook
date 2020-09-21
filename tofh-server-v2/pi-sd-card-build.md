@@ -90,6 +90,8 @@ Enable and resize OS partition size.
 
 ## Preparing to install Unifi Controller
 
+Ref: [https://pimylifeup.com/rasberry-pi-unifi/](https://pimylifeup.com/rasberry-pi-unifi/)
+
 ### Install OpenJAVA 8
 
 ```text
