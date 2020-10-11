@@ -122,3 +122,13 @@ sudo vi /etc/default/rng-tools
 sudo systemctl restart rng-tools
 ```
 
+### Installing Unifi Controller
+
+Download Unifi Controller Package
+
+```text
+wget https://dl.ui.com/unifi/5.14.23/unifi_sysvinit_all.deb
+```
+
+
+
