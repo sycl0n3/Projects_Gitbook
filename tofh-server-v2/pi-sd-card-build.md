@@ -130,5 +130,9 @@ Download Unifi Controller Package
 wget https://dl.ui.com/unifi/5.14.23/unifi_sysvinit_all.deb
 ```
 
+{% hint style="info" %}
+The Unifi Controller will not run on the Raspberry Pi W
+{% endhint %}
+
 
 
