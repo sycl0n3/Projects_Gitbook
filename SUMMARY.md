@@ -8,3 +8,7 @@
 
 * [Pi SD Card Build](tofh-server-v2/pi-sd-card-build.md)
 
+## ZeroTrust
+
+* [High Level Plan](zerotrust/high-level-plan.md)
+
