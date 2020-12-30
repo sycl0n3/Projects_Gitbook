@@ -7,7 +7,7 @@
 ## TOFH Server V2
 
 * [Pi SD Card Build](tofh-server-v2/pi-sd-card-build.md)
-* [TOFH WIreguard VPN](tofh-server-v2/tofh-wireguard-vpn.md)
+* [TOFH Wireguard VPN](tofh-server-v2/tofh-wireguard-vpn.md)
 
 ## ZeroTrust
 
