@@ -13,3 +13,7 @@
 
 * [High Level Plan](zerotrust/high-level-plan.md)
 
+---
+
+* [AWS 2021 - SSO](aws-2021-sso.md)
+
