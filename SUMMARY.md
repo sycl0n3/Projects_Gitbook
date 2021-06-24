@@ -13,7 +13,12 @@
 
 * [High Level Plan](zerotrust/high-level-plan.md)
 
----
+## AWS
 
-* [AWS 2021 - SSO](aws-2021-sso.md)
+* [AWS 2021 - SSO](aws/aws-2021-sso.md)
+
+## OpenCV Motion Detection
+
+* [Set Up](opencv-motion-detection/set-up.md)
+* [References](opencv-motion-detection/references.md)
 
